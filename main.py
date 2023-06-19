@@ -38,7 +38,7 @@ def cadastrar_pessoa():
         print(f"Nenhum animal ao gosto de {pessoa.nome} encontrado.")
 
 
-def buscar_animais_compativeis(pessoa):
+def buscar_animais(pessoa):
     animais_compativeis = []
     for animal in animais_cadastrados:
         if pessoa.verificar_compatibilidade(animal):
