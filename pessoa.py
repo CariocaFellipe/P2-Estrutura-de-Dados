@@ -1,14 +1,14 @@
 class Pessoa:
-    def __init__(self, nome, contato, especie_interesse, idade_interesse, cor_interesse):
+    def __init__(self, nome, contato, especie, idade, cor):
         self.nome = nome
         self.contato = contato
-        self.especie_interesse = especie_interesse
-        self.idade_interesse = idade_interesse
-        self.cor_interesse = cor_interesse
+        self.especie = especie
+        self.idade = idade
+        self.cor = cor
 
     def verificar_compatibilidade(self, animal):
         return (
-            animal.tipo == self.especie_interesse
-            and animal.idade == self.idade_interesse
-            and animal.cor == self.cor_interesse
+            animal.tipo == self.especie
+            and animal.idade == self.idade
+            and animal.cor == self.cor
         )
