@@ -25,7 +25,7 @@ def cadastrar_pessoa():
     cor = input("Digite a cor de interesse da pessoa: ")
     porte_animal = input("Digite o Porte interessado: ")
 
-    pessoa = Pessoa(nome, contato, especie, idade, cor)
+    pessoa = Pessoa(nome, contato, especie, idade, cor, porte)
     pessoas_cadastradas.append(pessoa)
 
     animais_compativeis = buscar_animais_compativeis(pessoa)
