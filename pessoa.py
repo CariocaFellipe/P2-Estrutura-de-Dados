@@ -11,4 +11,5 @@ class Pessoa:
             animal.tipo == self.especie
             and animal.idade == self.idade
             and animal.cor == self.cor
+            and anima.porte == self.porte
         )
