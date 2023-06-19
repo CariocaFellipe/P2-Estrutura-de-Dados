@@ -28,7 +28,7 @@ def cadastrar_pessoa():
     pessoa = Pessoa(nome, contato, especie, idade, cor, porte)
     pessoas_cadastradas.append(pessoa)
 
-    animais_compativeis = buscar_animais_compativeis(pessoa)
+    animais_compativeis = buscar_animais(pessoa)
 
     if animais_compativeis:
         print(f"Animais que são do gosto de {pessoa.nome}:")
