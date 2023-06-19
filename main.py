@@ -20,11 +20,12 @@ def cadastrar_animal():
 def cadastrar_pessoa():
     nome = input("Digite o nome da pessoa: ")
     contato = input("Digite o contato da pessoa: ")
-    especie_interesse = input("Digite a espécie de interesse da pessoa: ")
-    idade_interesse = input("Digite a idade de interesse da pessoa: ")
-    cor_interesse = input("Digite a cor de interesse da pessoa: ")
+    especie = input("Digite a espécie de interesse da pessoa: ")
+    idade = input("Digite a idade de interesse da pessoa: ")
+    cor = input("Digite a cor de interesse da pessoa: ")
+    porte_animal = input("Digite o Porte interessado")
 
-    pessoa = Pessoa(nome, contato, especie_interesse, idade_interesse, cor_interesse)
+    pessoa = Pessoa(nome, contato, especie, idade, cor)
     pessoas_cadastradas.append(pessoa)
 
     animais_compativeis = buscar_animais_compativeis(pessoa)
