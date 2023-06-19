@@ -23,7 +23,7 @@ def cadastrar_pessoa():
     especie = input("Digite a espécie de interesse da pessoa: ")
     idade = input("Digite a idade de interesse da pessoa: ")
     cor = input("Digite a cor de interesse da pessoa: ")
-    porte_animal = input("Digite o Porte interessado: ")
+    porte = input("Digite o Porte interessado: ")
 
     pessoa = Pessoa(nome, contato, especie, idade, cor, porte)
     pessoas_cadastradas.append(pessoa)
