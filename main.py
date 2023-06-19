@@ -6,10 +6,10 @@ pessoas_cadastradas = []
 
 
 def cadastrar_animal():
-    tipo = input("Digite o tipo do animal: ")
-    idade = input("Digite a idade do animal: ")
-    cor = input("Digite a cor do animal: ")
-    porte = input("Digite o Porte do Animal: ")
+    tipo = input("Digite o tipo do animal: ").upper()
+    idade = input("Digite a idade do animal: ").upper()
+    cor = input("Digite a cor do animal: ").upper()
+    porte = input("Digite o Porte do Animal: ").upper()
 
     animal = Animal(tipo, idade, cor, porte)
     animais_cadastrados.append(animal)
@@ -18,12 +18,12 @@ def cadastrar_animal():
 
 
 def cadastrar_pessoa():
-    nome = input("Digite o nome da pessoa: ")
-    contato = input("Digite o contato da pessoa: ")
-    especie = input("Digite a espécie de interesse da pessoa: ")
-    idade = input("Digite a idade de interesse da pessoa: ")
-    cor = input("Digite a cor de interesse da pessoa: ")
-    porte = input("Digite o Porte interessado: ")
+    nome = input("Digite o nome da pessoa: ").upper()
+    contato = input("Digite o contato da pessoa: ").upper()
+    especie = input("Digite a espécie de interesse da pessoa: ").upper()
+    idade = input("Digite a idade de interesse da pessoa: ").upper()
+    cor = input("Digite a cor de interesse da pessoa: ").upper()
+    porte = input("Digite o Porte interessado: ").upper()
 
     pessoa = Pessoa(nome, contato, especie, idade, cor, porte)
     pessoas_cadastradas.append(pessoa)
