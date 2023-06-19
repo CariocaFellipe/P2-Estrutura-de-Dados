@@ -9,6 +9,7 @@ def cadastrar_animal():
     tipo = input("Digite o tipo do animal: ")
     idade = input("Digite a idade do animal: ")
     cor = input("Digite a cor do animal: ")
+    porte = input("Digite o Porte do Animal")
 
     animal = Animal(tipo, idade, cor)
     animais_cadastrados.append(animal)
