@@ -20,10 +20,10 @@ def cadastrar_animal():
 
 def cadastrar_pessoa():
     nome = input("Digite seu nome: ").upper()
-    contato = input("Digite o seu numero ").upper()
-    especie = input("Digite a espécie do seu interesse ").upper()
-    idade = input("Digite a idade do animal de seu interesse ").upper()
-    cor = input("Digite a cor do animal de seu interesse  ").upper()
+    contato = input("Digite o seu numero: ").upper()
+    especie = input("Digite a espécie do seu interesse: ").upper()
+    idade = input("Digite a idade do animal de seu interesse: ").upper()
+    cor = input("Digite a cor do animal de seu interesse: ").upper()
     porte = input("Digite o Porte de seu interesse: ").upper()
 
     pessoa = Pessoa(nome, contato, especie, idade, cor, porte)
