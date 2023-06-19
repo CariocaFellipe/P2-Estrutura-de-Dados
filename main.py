@@ -31,11 +31,11 @@ def cadastrar_pessoa():
     animais_compativeis = buscar_animais_compativeis(pessoa)
 
     if animais_compativeis:
-        print(f"Animais disponíveis que podem ser do interesse de {pessoa.nome}:")
+        print(f"Animais que são do gosto de {pessoa.nome}:")
         for animal in animais_compativeis:
             animal.exibir_detalhes()
     else:
-        print(f"Nenhum animal disponível corresponde aos interesses de {pessoa.nome}.")
+        print(f"Nenhum animal ao gosto de {pessoa.nome} encontrado.")
 
 
 def buscar_animais_compativeis(pessoa):
