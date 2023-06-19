@@ -11,10 +11,10 @@ def cadastrar_animal():
     cor = input("Digite a cor do animal: ")
     porte = input("Digite o Porte do Animal: ")
 
-    animal = Animal(tipo, idade, cor)
+    animal = Animal(tipo, idade, cor, porte)
     animais_cadastrados.append(animal)
 
-    print("Animal cadastrado com sucesso!\n")
+    print("Animal cadastrado com sucesso!")
 
 
 def cadastrar_pessoa():
