@@ -31,11 +31,11 @@ def cadastrar_pessoa():
     animais_compativeis = buscar_animais_compativeis(pessoa)
 
     if animais_compativeis:
-        print(f"\nAnimais disponíveis que podem ser do interesse de {pessoa.nome}:")
+        print(f"Animais disponíveis que podem ser do interesse de {pessoa.nome}:")
         for animal in animais_compativeis:
             animal.exibir_detalhes()
     else:
-        print(f"\nNenhum animal disponível corresponde aos interesses de {pessoa.nome}.\n")
+        print(f"Nenhum animal disponível corresponde aos interesses de {pessoa.nome}.")
 
 
 def buscar_animais_compativeis(pessoa):
@@ -49,7 +49,7 @@ def buscar_animais_compativeis(pessoa):
 def menu():
     while True:
         print("1 - Cadastrar animal")
-        print("2 - Cadastrar pessoa interessada em adoção")
+        print("2 - Cadastrar pessoa")
         print("3 - Sair")
 
         opcao = input("Escolha uma opção: ")
@@ -59,10 +59,10 @@ def menu():
         elif opcao == "2":
             cadastrar_pessoa()
         elif opcao == "3":
-            print("Saindo do programa...")
+            print("Finalizando")
             break
         else:
-            print("Opção inválida!\n")
+            print("Opção inválida!")
 
 
 if __name__ == '__main__':
