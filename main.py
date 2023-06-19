@@ -7,11 +7,12 @@ pessoas_cadastradas = []
 
 def cadastrar_animal():
     tipo = input("Digite o tipo do animal: ").upper()
+    nome = input("Digite o nome do animal: ").upper()
     idade = input("Digite a idade do animal: ").upper()
     cor = input("Digite a cor do animal: ").upper()
     porte = input("Digite o Porte do Animal: ").upper()
 
-    animal = Animal(tipo, idade, cor, porte)
+    animal = Animal(tipo, nome, idade, cor, porte)
     animais_cadastrados.append(animal)
 
     print("Animal cadastrado com sucesso!")
