@@ -1,8 +1,8 @@
-Curso: Engenharia de Software
-Professor: Marcio Alexandre Dias Garrido - https://github.com/marciogarridoLaCop
-Disciplina: Estrutura de Dados
-Aluno: Luis Fellipe Marques da Silva
-Github: https://github.com/CariocaFellipe
+Curso: Engenharia de Software<br>
+Professor: Marcio Alexandre Dias Garrido - https://github.com/marciogarridoLaCop<br>
+Disciplina: Estrutura de Dados<br>
+Aluno: Luis Fellipe Marques da Silva - 202211170<br>
+Github: https://github.com/CariocaFellipe<br>
 
 # Enunciado.
 A Universidade de Vassouras do Campus 1 foi convidada pela prefeitura de Maricá para promover uma solução tecnológica em um dos problemas sociais da cidade, o abandono de animais. Mesmo considerado crime (O abandono de animais é crime, previsto na Lei de Crimes Ambientais - Lei Federal n° 9.605 de 1998), e notório que o índice de abandono vem crescendo a cada ano.
